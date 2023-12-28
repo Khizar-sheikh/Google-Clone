@@ -1,0 +1,132 @@
+/* Search Page Styles */
+.searchPage {
+  padding: 0px 30px 30px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header Styles */
+.searchPage_header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.searchPage_resultLinks {
+  display: flex;
+  align-items: flex-end;
+}
+.searchPage_logo {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.searchPage_headerBody {
+  flex-grow: 1;
+}
+
+/* Search Options Styles */
+.searchPage_options {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.searchPage_optionsLeft,
+.searchPage_optionsRight {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.searchPage_option {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  color: #70757a;
+}
+
+/* Result Count Styles */
+.searchPage_resultCount {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #70757a;
+  font-size: 14px;
+}
+
+/* Result Styles */
+.searchPage_result {
+  margin-top: 20px;
+}
+
+.searchPage_resultItem {
+  padding: 20px 0;
+}
+
+.searchPage_resultHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.searchPage_resultImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 1px solid black;
+}
+
+.links-result {
+  flex-grow: 1;
+}
+
+.searchPage_resultTitle {
+  font-size: 18px;
+  color: #31279d;
+  margin-bottom: 5px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.searchPage_resultTitle:hover {
+  color: #0d6efd;
+}
+
+.searchPage_resultLink {
+  font-size: 14px;
+  color: #70757a;
+  text-decoration: none;
+}
+
+.searchPage_moreIcon {
+  color: #70757a;
+  font-size: 24px;
+  margin-bottom: -5px;
+  margin-left: 18px;
+}
+
+.searchPage_resultDetails h2 {
+  font-size: 20px;
+  color: #1500ffe5;
+  margin-bottom: 10px;
+}
+
+.searchPage_resultSnippet {
+  font-size: 14px;
+  color: #4d5156;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .searchPage_options {
+    display: none;
+  }
+  .searchPage_logo {
+    display: none;
+  }
+}
